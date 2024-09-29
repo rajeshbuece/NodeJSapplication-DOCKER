@@ -1,0 +1,23 @@
+{
+  "name": "nodejsapplication-docker",
+  "version": "1.0.0",
+  "description": "We'll create a simple Node.js application that serves a \"Hello World\" endpoint, Dockerize it, and set up a Jenkins pipeline with automatic build triggers and notifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshbuece/NodeJSapplication-DOCKER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeshbuece/NodeJSapplication-DOCKER/issues"
+  },
+  "homepage": "https://github.com/rajeshbuece/NodeJSapplication-DOCKER#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
