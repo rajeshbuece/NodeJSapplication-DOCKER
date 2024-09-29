@@ -51,9 +51,3 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            echo 'Pipeline complete'
-        }
-    }
-
