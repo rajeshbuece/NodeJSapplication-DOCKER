@@ -57,13 +57,13 @@ pipeline {
         }
         success {
             // Notify on success
-            slackSend(channel: '#your-channel', message: "Build succeeded: ${env.BUILD_URL}")
+            //slackSend(channel: '#your-channel', message: "Build succeeded: ${env.BUILD_URL}")
             // OR
             // mail to: 'your-email@example.com', subject: "Build succeeded", body: "Check console output at ${env.BUILD_URL}"
         }
         failure {
             // Notify on failure
-            slackSend(channel: '#your-channel', message: "Build failed: ${env.BUILD_URL}")
+            //slackSend(channel: '#your-channel', message: "Build failed: ${env.BUILD_URL}")
             // OR
             // mail to: 'your-email@example.com', subject: "Build failed", body: "Check console output at ${env.BUILD_URL}"
         }
